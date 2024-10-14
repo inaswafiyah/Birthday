@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+   background-image: url(image/download\ \(6\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}   
+
+
+h1{
+    text-align: center;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 60px;
+}
+
+.grid-container{ 
+    /* dispaly biar lbih fleksibel */
+    display: grid;
+    
+    grid-template-columns: auto auto;
+} 
+
+.grid-item{
+    /* border disekeliling elemen garis  */
+    border: 1px solid black;
+    display: flex;
+    /* mengatur posisi */
+    align-items: center;
+    /* spasi mengatur konten elemen */
+    padding: 20px;
+}
+
+  
+
+button{
+    background-color: pink;
+    padding: 5px 8px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(115, 109, 101);
+
+}
+.maxwell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
